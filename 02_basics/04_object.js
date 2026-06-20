@@ -52,6 +52,18 @@ console.log(Object.entries(obj));
 
 console.log(obj.hasOwnProperty("name"));
 
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+const Student={
+    fullname:"Rahul",
+    Rollno:"55",
+    isPresent:true,
+}
+
+// inspite of console.log(Student.name); you can
+const {fullname:name}=Student;
+console.log(name);
+ 
 
 
 
