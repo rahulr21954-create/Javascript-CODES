@@ -20,7 +20,9 @@ console.log(dayOne.nextElementSibling);
 
 console.log("NODE: ",parent.childNodes);
 
-
+Array.from(parent.children).forEach((element)=>{
+    element.style.backgroundColor="red"
+})
 
 
 
